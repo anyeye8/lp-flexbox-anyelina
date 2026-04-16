@@ -1,0 +1,21 @@
+
+footer {
+    background-color: #b0d8ee;
+}
+
+.footer-ul-lists {
+    list-style: none;
+    display: flex;
+
+    li {
+        margin: 10px;
+        padding: 5px;
+        border-radius: 10px;
+        text-decoration: none;
+        color: black;
+
+        &:hover {
+            background-color: #6fc0eb;
+        }
+    }
+}

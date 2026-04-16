@@ -1,0 +1,23 @@
+header {
+    background-color: #0e3a51;
+}
+
+.header-ul-lists {
+    list-style: none;
+    display: flex;
+
+    li {
+        margin: 10px;
+        padding: 5px;
+        border-radius: 10px;
+
+        &:hover {
+            background-color: #2E6D8E;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(142, 194, 234);
+    }
+}
